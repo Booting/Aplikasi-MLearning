@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_background">#ffbb33</color>  
+    <color name="title_text">#8c2300</color>
+    <color name="title_text_tanggal">#3f3f3f</color>
+    <color name="title_text_alt">#ff000000</color>
+    <color name="foreground1">#0000b2</color>
+    <color name="foreground2">#ff7081a3</color>
+    <color name="background1">#4d3f67</color>
+    <color name="background2">#534d7a</color>
+    <color name="background3">#ffe3e8f1</color>
+    <color name="title_separator">#40ffffff</color>
+    
+    <color name="white_smoke">#F5F5F5</color>
+    <color name="grey">#ccc</color>
+    <color name="dark_grey">#888</color>
+    <color name="light_grey">#D3D3D3</color>
+    
+    <color name="transparent_color">#00000000</color>
+    <color name="greenStart">#ff33dd44</color>
+	<color name="greenMid">#ff0A8815</color>
+	<color name="greenEnd">#ff1da130</color>
+
+</resources>

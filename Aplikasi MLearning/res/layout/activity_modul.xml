@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >  
+
+	<LinearLayout android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:layout_margin="20dip" >
+    	<TextView android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center_horizontal"
+        	android:text="@string/app_name"
+        	android:textSize="40sp"
+        	android:textColor="#FFF"
+        	android:typeface="serif" />
+    	<View android:layout_width="100dip"
+	  	    android:layout_height="0.5dip"
+	  	    android:background="#FFF"
+        	android:layout_gravity="center_horizontal"
+        	android:layout_marginLeft="20dip"
+        	android:layout_marginRight="20dip"/>
+    	<TextView android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center_horizontal"
+        	android:text="@string/app_name"
+        	android:textSize="12sp"
+        	android:textColor="#FFF"
+        	android:typeface="serif"
+        	android:textStyle="italic"
+        	android:layout_marginTop="10dip"
+        	android:id="@+id/txtGreetings" />
+    	
+    	<ListView android:id="@android:id/list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="200dip"
+	    	android:layout_marginTop="70dip"
+		  	android:cacheColorHint="#00000000"
+		  	android:divider="@null"
+			android:dividerHeight="5dp" />
+    	
+    	<EditText android:id="@+id/txtModulName"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:inputType="text"
+    	    android:textSize="12sp"
+    	    android:textColor="#eabafb"
+    	    android:typeface="serif"
+    	    android:textStyle="italic"
+    	    android:layout_marginTop="20dip"
+    	    android:hint="@string/modul_name"
+    	    android:textColorHint="#eabafb" />
+    	<Button style="@style/btnStyleSeagull" android:text="@string/browse_file"
+    	    android:layout_marginTop="10dip" android:id="@+id/btnBrowseFile"
+    	    android:visibility="gone" />
+    	<Button style="@style/btnStyleSeagull" android:text="@string/upload_file"
+    	    android:layout_marginTop="10dip" android:id="@+id/btnUploadFile"
+    	    android:visibility="gone" />
+    	
+	</LinearLayout>
+	
+	<!-- Footer Layout -->
+	<ViewStub android:id="@+id/vsHeader" 
+	    android:inflatedId="@+id/header" 
+		android:layout_width="fill_parent" 
+		android:layout_height="45dip" 
+		android:layout="@layout/footer" />
+</LinearLayout>

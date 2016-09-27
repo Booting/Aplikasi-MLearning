@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile Learning</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+	<string name="signin">Sign In</string>
+    <string name="username">Username :</string>
+	<string name="password">Password :</string>
+	<string name="modul">Modul</string>
+    <string name="tugas">Tugas</string>
+	<string name="exam">Exam</string>
+    <string name="about">About</string>
+    <string name="pretest">Pretest</string>
+    <string name="uas">UAS</string>
+    <string name="browse_file">Browse File..</string>
+    <string name="upload_file">Upload</string>
+    <string name="modul_name">Modul Name</string>
+    <string name="tugas_name">Tugas Name</string>
+	
+</resources>
